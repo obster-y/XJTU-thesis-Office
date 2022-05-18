@@ -1,0 +1,118 @@
++------------------------+--------------------------+-----------------------------------------------------------------+
+| 学院名称               | 学科/专业                | 英文                                                            |
++------------------------+--------------------------+-----------------------------------------------------------------+
+| 材料科学与工程学院     | 材料科学与工程           | Materials Science and Engineering                               |
+| 电气工程学院           | 仪器科学与技术           | Instrument Science and Technology                               |
+| 电气工程学院           | 电气工程                 | Electrical Engineering                                          |
+| 电气工程学院           | 控制科学与工程           | Control Science and Engineering                                 |
+| 电气工程学院           | 脉冲功率与放电等离子体   | Pulsed Power and Discharge Plasma                               |
+| 电气工程学院           | 电子与信息               | Electronics and Information                                     |
+| 电子与信息工程学院     | 电子科学与技术           | Electronic Science and Technology                               |
+| 电子与信息工程学院     | 信息与通信工程           | Information and Communications Engineering                      |
+| 电子与信息工程学院     | 控制科学与工程           | Control Science and Engineering                                 |
+| 电子与信息工程学院     | 计算机科学与技术         | Computer Science and Technology                                 |
+| 电子与信息工程学院     | 网络空间安全             | Cyberspace Security                                             |
+| 电子与信息工程学院     | 电子与信息               | Electronics and Information                                     |
+| 法学院                 | 法学                     | Law                                                             |
+| 法学院                 | 法律治理学               | Law and Governance                                              |
+| 公共政策与管理学院     | 公共管理                 | Public Administration                                           |
+| 公共政策与管理学院     | 图书馆学                 | Library Science                                                 |
+| 管理学院               | 管理科学与工程           | Management Science and Engineering                              |
+| 管理学院               | 工商管理                 | Business Administration                                         |
+| 管理学院               | 会计学                   | Accounting                                                      |
+| 管理学院               | 电子与信息               | Electronics and Information                                     |
+| 管理学院               | 战略管理与政策分析       | Strategy Management and Policy Analysis                         |
+| 航天航空学院           | 力学                     | Mechanics                                                       |
+| 航天航空学院           | 航空宇航科学与技术       | Aeronautical and Astronautical Science and Technology           |
+| 化学工程与技术学院     | 动力工程及工程热物理     | Power Engineering and Engineering Thermophysics                 |
+| 化学工程与技术学院     | 化学工程与技术           | Chemical Engineering and Technology                             |
+| 机械工程学院           | 机械工程                 | Mechanical Engineering                                          |
+| 机械工程学院           | 仪器科学与技术           | Instrument Science and Technology                               |
+| 机械工程学院           | 先进制造                 | Advanced Manufacturing                                          |
+| 金禾经济研究中心       | 理论经济学               | Theoretical Economics                                           |
+| 金禾经济研究中心       | 应用经济学               | Applied Economics                                               |
+| 经济与金融学院         | 理论经济学               | Theoretical Economics                                           |
+| 经济与金融学院         | 应用经济学               | Applied Economics                                               |
+| 理学院                 | 物理学                   | Physics                                                         |
+| 理学院                 | 化学                     | Chemistry                                                       |
+| 理学院                 | 材料科学与工程           | Materials Science and Engineering                               |
+| 理学院                 | 化学工程与技术           | Chemical Engineering and Technology                             |
+| 马克思主义学院         | 理论经济学               | Theoretical Economics                                           |
+| 马克思主义学院         | 中共党史                 | History of the Communist Party of China                         |
+| 马克思主义学院         | 马克思主义理论           | Marxist Theory                                                  |
+| 能源与工程动力学院     | 动力工程及工程热物理     | Power Engineering and Engineering Thermophysics                 |
+| 能源与工程动力学院     | 核科学与技术             | Nuclear Science and Technology                                  |
+| 能源与工程动力学院     | 环境科学与工程           | Environmental Science and Engineering                           |
+| 评估中心               | 教育学                   | Education                                                       |
+| 前沿科学技术研究院     | 物理学                   | Physics                                                         |
+| 前沿科学技术研究院     | 化学                     | Chemistry                                                       |
+| 前沿科学技术研究院     | 生物学                   | Biology                                                         |
+| 前沿科学技术研究院     | 材料科学与工程           | Materials Science and Engineering                               |
+| 前沿科学技术研究院     | 化学工程与技术           | Chemical Engineering and Technology                             |
+| 前沿科学技术研究院     | 生物医学工程             | Biomedical Engineering                                          |
+| 人居环境与建筑工程学院 | 建筑学                   | Architecture                                                    |
+| 人居环境与建筑工程学院 | 土木工程                 | Civil Engineering                                               |
+| 人居环境与建筑工程学院 | 环境科学与工程           | Environmental Science and Engineering                           |
+| 人居环境与建筑工程学院 | 城乡规划学               | Urban and Rural Planning                                        |
+| 人居环境与建筑工程学院 | 地球与人居环境科学及工程 | Earth and Built Environment Science and Engineering             |
+| 人文社会科学学院       | 哲学                     | Philosophy                                                      |
+| 人文社会科学学院       | 社会学                   | Sociology                                                       |
+| 人文社会科学学院       | 教育学                   | Education                                                       |
+| 人文社会科学学院       | 体育学                   | Science of Physical Culture and Sports                          |
+| 人文社会科学学院       | 文艺学                   | Theory of Literature and Art                                    |
+| 人文社会科学学院       | 新闻传播学               | Journalism and Communication                                    |
+| 人文社会科学学院       | 社会发展与管理           | Social Development and Governance                               |
+| 软件学院               | 软件工程                 | Software Engineering                                            |
+| 生命科学与技术学院     | 生物学                   | Biology                                                         |
+| 生命科学与技术学院     | 生物医学工程             | Biomedical Engineering                                          |
+| 生命科学与技术学院     | 康复医学与理疗学         | Rehabilitation Medicine and Physical Therapeutics               |
+| 数学与统计学院         | 数学                     | Mathematics                                                     |
+| 数学与统计学院         | 统计学                   | Statistics                                                      |
+| 外国语学院             | 外国语言文学             | Foreign Languages and Literature                                |
+| 外国语学院             | 语言文化系统学           | Systemics of Language and Culture                               |
+| 医学部                 | 生理学                   | Physiology                                                      |
+| 医学部                 | 神经生物学               | Neurobiology                                                    |
+| 医学部                 | 遗传学                   | Genetics                                                        |
+| 医学部                 | 细胞生物学               | Cell Biology                                                    |
+| 医学部                 | 生物化学与分子生物学     | Biochemistry and Molecular Biology                              |
+| 医学部                 | 生物物理学               | Biophysics                                                      |
+| 医学部                 | 人体解剖与组织胚胎学     | Human Anatomy, Histology and Embryology                         |
+| 医学部                 | 免疫学                   | Immunology                                                      |
+| 医学部                 | 病原生物学               | Pathogenic Biology                                              |
+| 医学部                 | 病理学与病理生理学       | Pathology and Pathophysiology                                   |
+| 医学部                 | 法医学                   | Forensic Medicine                                               |
+| 医学部                 | 口腔生物医学             | Stomatologic Biomedicine                                        |
+| 医学部                 | 内科学                   | Internal Medicine                                               |
+| 医学部                 | 儿科学                   | Pediatrics                                                      |
+| 医学部                 | 老年医学                 | Geriatrics                                                      |
+| 医学部                 | 神经病学                 | Neurology                                                       |
+| 医学部                 | 精神病与精神卫生学       | Psychiatry and Mental Health                                    |
+| 医学部                 | 皮肤病与性病学           | Dermatology and Venereololgy                                    |
+| 医学部                 | 影像医学与核医学         | Medical Imaging and Nuclear Medicine                            |
+| 医学部                 | 临床检验诊断学           | Clinical Laboratory Diagnostics                                 |
+| 医学部                 | 外科学                   | Surgery                                                         |
+| 医学部                 | 妇产科学                 | Obstetrics and Gynecology                                       |
+| 医学部                 | 眼科学                   | Ophthalmology                                                   |
+| 医学部                 | 耳鼻咽喉科学             | Otorhinolaryngology                                             |
+| 医学部                 | 肿瘤学                   | Oncology                                                        |
+| 医学部                 | 康复医学与理疗学         | Rehabilitation Medicine and Physical Therapeutics               |
+| 医学部                 | 麻醉学                   | Anesthesiology                                                  |
+| 医学部                 | 急诊医学                 | Emergency Medicine                                              |
+| 医学部                 | 临床护理学               | Clinical Nursing                                                |
+| 医学部                 | 口腔基础医学             | Basic Science of Stomatology                                    |
+| 医学部                 | 口腔临床医学             | Clinical Science of Stomatology                                 |
+| 医学部                 | 流行病与卫生统计学       | Epidemiology and Health Statistics                              |
+| 医学部                 | 劳动卫生与环境卫生学     | Occupational and Environmental Health                           |
+| 医学部                 | 营养与食品卫生学         | Nutrition and Food Hygiene                                      |
+| 医学部                 | 儿少卫生与妇幼保健学     | Maternal, Child and Adolescent Health                           |
+| 医学部                 | 中西医结合临床           | Clinical Discipline of Chinese and Western Integrative Medicine |
+| 医学部                 | 药物化学                 | Medicinal Chemistry                                             |
+| 医学部                 | 药剂学                   | Pharmaceutics                                                   |
+| 医学部                 | 生药学                   | Pharmacognosy                                                   |
+| 医学部                 | 药物分析学               | Pharmaceutical Analysis                                         |
+| 医学部                 | 微生物与生化药学         | Microbial and Biochemical Pharmacy                              |
+| 医学部                 | 药理学                   | Pharmacology                                                    |
+| 医学部                 | 天然药物化学             | Natural Medicinal Chemistry                                     |
+| 医学部                 | 药事管理学               | Pharmacy Administration                                         |
+| 医学部                 | 护理学                   | Nursing                                                         |
++------------------------+--------------------------+-----------------------------------------------------------------+
