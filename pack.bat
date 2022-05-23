@@ -1,16 +1,19 @@
 @echo off
 setlocal enabledelayedexpansion
 
+set DIRS=%cd%
+
+
 :: :: Copy Themes :: ::
 set SOURCE=Themes\
 set DESTINATION="%APPDATA%\Microsoft\Templates\Document Themes\"
 xcopy /e /y /c %SOURCE% %DESTINATION%
 echo.
 
+
 :: :: Pack Files :: ::
 ::Use `:` as delimiter to filter directories
 set DIR_FILTERS=".git:Themes:Tools:Requirements"
-set DIRS=%cd%
 
 for /f %%i in ('dir /b %DIRS%') do (
     set FileAttr=%%~ai
@@ -29,6 +32,8 @@ echo.
 :: :: Update Caption Labels :: ::
 set FILETOMODDIR=word
 set FILETOMOD=%FILETOMODDIR%\settings.xml
+
+::labels should be seperated by `#'
 set LABELTOADD="w:caption w:name=\"图\" w:pos=\"below\" w:chapNum=\"1\" w:numFmt=\"decimal\" w:sep=\"period\"#w:caption w:name=\"表\" w:pos=\"below\" w:chapNum=\"1\" w:numFmt=\"decimal\" w:sep=\"period\""
 
 :: Release settings.xml ::
@@ -36,18 +41,17 @@ unzip -o -q "%APPDATA%\Microsoft\Templates\Normal.dotm" %FILETOMOD%
 
 :: Update caption labels ::
 set NOCAP=
-
-for /f "tokens=*" %%a in ('%DIRS%\Tools\xml sel -t -c "//w:caption[@w:name='图']" "%FILETOMOD%"') do set NOCAP="1"
+for /f "tokens=*" %%i in ('%DIRS%\Tools\xml sel -t -c "//w:caption[@w:name='图']" %FILETOMOD%') do set NOCAP="1"
 
 if NOT defined NOCAP (
     :ADDLABEL
     for /f "delims=#, tokens=1*" %%i in (%LABELTOADD%) do (
-        %cd%\Tools\xml ed -L -s //w:captions -t elem -n "%%i" %FILETOMOD%
+        %DIRS%\Tools\xml ed -L -s //w:captions -t elem -n "%%i" %FILETOMOD%
         set LABELTOADD="%%j"
         goto ADDLABEL
     )
 
-    zip -qu "%APPDATA%\Microsoft\Templates\Normal.dotm" %FILETOMOD%
+    %DIRS%\Tools\zip -qu "%APPDATA%\Microsoft\Templates\Normal.dotm" %FILETOMOD%
 
     echo 已写入交叉引用标签
     echo.
