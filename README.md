@@ -8,6 +8,8 @@
 
 [XJTU-thesis](https://github.com/obster-y/XJTU-thesis/tree/dev) 为一相关项目，为官方的基于 LaTeX 的硕博学位论文模板
 
+参考标准为 [官方版本](http://gs.xjtu.edu.cn/info/1209/7605.htm)
+
 考虑到原有 Word 模板的诸多问题，对其进行优化，可以方便的按照以后学校要求进行更新（或扩展到其他学校使用）。
 
 
